@@ -1,4 +1,9 @@
 import tkinter as tk
+class Player:
+    def __init__(self):
+        self.score = 0
+    def add_score(self):
+        self.score +=1
 def main():
     root = tk.Tk()
     root.title("clicker")
@@ -10,3 +15,4 @@ def main():
     root.mainloop()
 if __name__ == "__main__":
     main()
+
